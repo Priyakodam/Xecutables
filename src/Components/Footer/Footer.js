@@ -1,5 +1,7 @@
 import React from 'react';
 import './Footer.css';
+import f_logo from './Footerlogo/xecutable-logo.png'
+
 
 
 const Footer = () => {
@@ -7,7 +9,7 @@ const Footer = () => {
     <footer>
       <div className="footer-content">
         <div className="footer-column logo-column">
-          <img src="/xecutable.png" alt="Logo" className="footer-logo" />
+          <img src={f_logo} alt="Logo" className="footer-logo" />
           <p>
             We are committed to providing the best service and products to our customers. Our goal is to exceed your expectations with quality and professionalism.
           </p>
