@@ -149,7 +149,7 @@ p {
                 /* Further reduce padding on very small screens */
                 font-size: 0.9rem;
                 /* Further adjust font size for mobile */
-                width: 95%;
+                width: 90%;
         }
 }
 
@@ -347,7 +347,7 @@ p {
         .managesolution-container .managesolution-card {
 
                 width: 114%;
-                height: 346px;
+                height: 390px;
                 margin-top: 15px;
                 padding: 20px;
                 /* Add padding inside the card */
