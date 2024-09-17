@@ -166,6 +166,8 @@
 
 import React, { useState } from 'react';
 import './Navbar.css'; // Import the CSS for styling
+import mainlogo from './logo/xecutable-logo.png'
+
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -183,8 +185,7 @@ const Header = () => {
     <header>
       {/* Logo */}
       <div className="logo">
-        <img src="/xecutable.png" alt="Xecutables Logo" />
-      </div>
+     <img src={mainlogo} alt="Xecutables Logo" />      </div>
 
       {/* Hamburger toggle button */}
       <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
