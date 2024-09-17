@@ -1,0 +1,413 @@
+/* General styles for larger screens */
+.product-banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.productbanner-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0; /* Ensures sharp edges */
+}
+
+.productbanner-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.productbanner-text h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.productbanner-text p {
+    font-size: 1.5rem;
+}
+
+.product-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.product-image {
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    margin: 0 auto; /* Center the image */
+}
+
+.content-section {
+    width: 100%;
+    max-width: 1220px; /* Set maximum width for larger screens */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.column h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Add a bottom border similar to the design */
+.column p::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #d100ff; /* Custom color matching the line in your image */
+    margin-top: 10px;
+}
+
+.productmanagement-section {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #A90E83, #0150E1);
+    padding: 40px; /* Reduced padding */
+    gap: 15px; /* Reduced gap between items */
+    margin-bottom: 10px; /* Reduced margin */
+    margin-top: 20px; /* Reduced top margin */
+}
+
+.productmanagement-item {
+    text-align: center;
+    width: 30%;
+}
+
+.productmanagement-item img {
+    margin-top: 10px; /* Reduced margin between image and top */
+    width: auto;
+    height: 80px; /* Set a fixed height to reduce overall section height */
+}
+
+.productmanagement-item h3 {
+    margin-top: 10px; /* Reduced space between image and text */
+    font-size: 18px; /* Reduced font size */
+    color: white;
+    font-weight: 700;
+}
+
+.productmanagement-item p {
+    font-size: 15px; /* Reduced font size */
+    line-height: 1.5; /* Adjusted line height */
+    color: #fff;
+    margin-top: 8px; /* Reduced top margin */
+    margin-bottom: 10px; /* Reduced bottom margin */
+}
+
+.productlast-section {
+    margin-top: 30px;
+    display: flex;
+    align-items: center; /* Ensures vertical alignment */
+  }
+  
+  .productsser-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Flexbox container for h3 and ul */
+  .product-info {
+    display: flex;
+    flex-direction: column; /* Stack the h3 and ul vertically */
+  }
+  
+  .product-info h3 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+  }
+  
+  .product-features {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  
+  .product-features li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px; /* Add padding below text */
+    position: relative; /* Needed for the border */
+  }
+  
+  /* Add a horizontal line after each list item */
+  .product-features li:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Horizontal line color */
+  }
+  
+  /* Optional: Add some spacing for the checkmark */
+  .product-features li::before {
+    content: '✔'; /* Add checkmark before each item */
+    color: green;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+
+  .productbutton-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.custom-button {
+    padding: 8px 30px;
+    background-color: #d332b8; /* Button color */
+    box-shadow: 1px 1px 3px 2px #0255db;
+    color: #fff;
+    border: none;
+    border-radius: 45px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #A90E83; /* Button hover color */
+}
+
+.content-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  position: relative;
+  width: 45%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Optional: for better readability */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.overlay-text h2,
+.overlay-text p {
+  margin: 0;
+}
+
+.productcard-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+  }
+  
+  
+/* Responsive styles for mobile view (max-width: 768px for tablets and smaller devices) */
+@media only screen and (max-width: 768px) {
+    .product-banner {
+        height: auto; /* Adjust height for tablets */
+    }
+
+    .product-section {
+        margin-top: 50px;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .content-section {
+        display: block; 
+        width: 100%;
+        margin-left: -10px;    
+    }
+
+    .column {
+        margin-bottom: 20px;
+    }
+
+    .product-image {
+        width: 100%; /* Make image full width */
+        height: auto;
+    }
+
+    .productmanagement-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two items per row */
+        grid-gap: 20px; /* Space between items */
+        padding: 20px;
+    }
+
+    .productmanagement-item {
+        width: 100%; /* Each item takes full available space */
+    }
+
+    .productmanagement-item img {
+        height: 60px; /* Slightly smaller image height */
+    }
+
+    .productmanagement-item h3 {
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .productmanagement-item p {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .productlast-section {
+        display: flex;
+        flex-direction: row; /* Set the layout to row */
+        justify-content: space-between; /* Space out items evenly */
+        align-items: center; /* Align items vertically */
+        margin: 20px auto;
+        text-align: left; /* Align text to the left for a more natural flow */
+    }
+
+    .product-info {
+        flex: 1; /* Allow content to take up equal space */
+        padding-right: 20px; /* Add space between image and text */
+    }
+
+    .product-info h3 {
+        font-size: 2rem; /* Adjust heading size for tablets */
+        margin-bottom: 15px;
+    }
+
+    .product-features {
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+
+    .product-features li {
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .productsser-image {
+        flex: 1; /* Ensure the image takes equal space */
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+/* Responsive styles for very small screens (max-width: 480px for smartphones) */
+@media only screen and (max-width: 480px) {
+    .product-banner {
+        height: auto; /* Further reduce height for smaller screens */
+    }
+
+    .productbanner-image {
+        height: auto; /* Adjust image height for better fit */
+    }
+
+    .productbanner-text h1 {
+        top: 40%;
+        font-size: 1.8rem; /* Reduce title size */
+    }
+
+    .productbanner-text p {
+        font-size: 1rem; /* Further reduce paragraph font size */
+    }
+
+    .product-section {
+        margin-top: 50px;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .content-section {
+        display: block; 
+        width: 100%;
+        margin-left: -1px;    
+    }
+
+    .column {
+        margin: 10px 0; /* Adjust margin for spacing on small screens */
+    }
+
+    .column h3 {
+        font-size: 1.5rem; /* Smaller font size for headings on mobile */
+    }
+
+    .column p {
+        font-size: 0.9rem; /* Slightly reduce paragraph font size */
+    }
+
+    .column p::after {
+        width: 40px; /* Slightly reduce the line under the text */
+    }
+
+    .product-image {
+        width: 100%; /* Make the image responsive */
+        height: auto;
+    }
+
+    .productmanagement-section {
+        display: block; /* Stack items vertically on mobile */
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .productmanagement-item img {
+        height: 80px; /* Further reduce image height */
+    }
+
+    .productmanagement-item h3 {
+        font-size: 14px; /* Smaller font size for headings */
+    }
+
+    .productmanagement-item p {
+        font-size: 13px; /* Smaller font size for paragraph */
+    }
+
+    .productlast-section {
+        flex-direction: column; /* Stack elements vertically on smartphones */
+        text-align: center;     /* Center-align text */
+        margin: 0 10px;         /* Add padding around the section */
+      }
+    
+      .product-info h3 {
+        font-size: 1.5rem; /* Reduce heading size further on smartphones */
+      }
+    
+      .product-features li {
+        font-size: 0.79rem; /* Smaller font size for list items */
+      }
+    
+      .productsser-image {
+        margin-bottom: 15px; /* Add spacing between image and content */
+        width: 100%;         /* Ensure the image is full-width */
+        height: auto;
+      }
+}

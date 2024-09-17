@@ -1,0 +1,448 @@
+.physicalaccess-banner {
+        background-image: url('./BlogImages/ban-acc.png');
+        /* Add the URL to your banner image */
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        /* Adjust the height of the banner */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.physicalaccess-banner-text {
+        color: white;
+        font-size: 3rem;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+/* Image Under Banner Styles */
+.physicalaccess-image-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        /* Add some spacing between the banner and image */
+}
+
+.physicalaccess-image-under-banner {
+        width: 100%;
+        /* Ensure the image is responsive */
+        height: auto;
+        /* Maintain aspect ratio */
+        border-radius: 8px;
+        /* Optional: Rounded corners */
+}
+
+
+.physicalaccess-text-container {
+        width: 80%;
+        /* Container takes 90% of the width */
+        margin: 0 auto;
+        /* Center the container */
+        padding: 20px;
+        /* Add padding for spacing */
+        font-size: 1rem;
+        /* Default font size */
+        line-height: 1.6;
+        /* Line spacing for readability */
+        color: #333;
+
+        p {
+                margin-bottom: 20px;
+        }
+
+        /* Text color */
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+        .physicalaccess-text-container {
+                width: 95%;
+                /* Full width on small screens */
+                padding: 15px;
+                /* Reduce padding for smaller screens */
+                font-size: 0.95rem;
+                /* Adjust font size for better readability */
+        }
+
+
+
+        .physicalaccess-image-container{
+                width:100%;
+        }
+
+
+        .physicalaccess-image-container
+        .physicalaccess-image-under-banner{
+                width: 364px;
+                margin-left: -144px;
+                height: 369px;
+                margin-top: -17px;
+    
+        }
+        .physicalaccess-banner-text {
+                color: white;
+                font-size: 2.5rem;
+                font-weight: bold;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            }
+
+            .physicalaccess-container
+            .physicalaccess-card {
+             
+                width: 50%;
+                height: 385px;
+                margin-top: 48px;
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                margin-left: -60px;
+                margin-bottom: 20px;
+            
+              }
+              .physicalaccess-card-heading {
+                font-size: 22px; /* Adjust heading size */
+                margin-bottom: 10px; /* Add space below the heading */
+                text-align: center;
+              }
+
+
+              p {
+                font-size: 1.2em;
+                color: #555;
+                line-height: 1.5;
+                margin: 5px 0;
+            }
+
+
+  
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+        .physicalaccess-text-container {
+                width: 95%;
+                /* Slightly increase the width for medium screens */
+        }
+}
+
+@media (max-width: 768px) {
+        .physicalaccess-text-container {
+                width: 95%;
+                /* Full width on small screens */
+                padding: 15px;
+                /* Reduce padding for smaller screens */
+                font-size: 0.95rem;
+                /* Adjust font size for better readability */
+        }
+}
+
+@media (max-width: 480px) {
+        .physicalaccess-text-container {
+                padding: 10px;
+                /* Further reduce padding on very small screens */
+                font-size: 0.9rem;
+                /* Further adjust font size for mobile */
+        }
+}
+
+
+
+
+
+
+
+.physicalaccess-image-row-container {
+        display: flex;
+        /* Flexbox for row layout */
+        justify-content: center;
+        /* Center all items in the middle */
+        align-items: flex-start;
+        /* Align items to the top (or adjust as needed) */
+        margin: 0 auto;
+        padding: 20px;
+        flex-wrap: wrap;
+        /* Allow wrapping on smaller screens */
+}
+
+.physicalaccess-image-item-container {
+        text-align: center;
+        /* Center the text under each image */
+        margin: 0 20px;
+        /* Add margin between image containers */
+        width: 350px;
+        /* Set width of each image container */
+}
+
+.physicalaccess-image-item {
+        width: 100%;
+        /* Image takes full width of the container */
+        height: auto;
+        /* Maintain aspect ratio */
+        border-radius: 8px;
+        /* Optional: rounded corners */
+}
+
+h3 {
+        margin-top: 10px;
+        /* Space between image and heading */
+        font-size: 1.2rem;
+        /* Adjust heading font size */
+}
+
+p {
+        font-size: 1rem;
+        /* Paragraph font size */
+        line-height: 1.5;
+        /* Adjust line spacing for readability */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+        .physicalaccess-image-item-container {
+                width: 200px;
+                /* Reduce width on smaller screens */
+                margin: 0 10px;
+                /* Adjust margins */
+        }
+
+     
+}
+
+@media (max-width: 480px) {
+        .physicalaccess-image-row-container {
+                        flex-direction: column;
+                        margin-left: -5px;
+                        margin-right: 15px;
+                    }
+        
+
+        .physicalaccess-image-item-container {
+                width: 100%;
+                /* Full width on small screens */
+                margin-bottom: 20px;
+                /* Add space between stacked items */
+        }
+}
+
+
+
+
+
+@media (max-width: 767px) {
+        .physicalaccess-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                /* width: 100%; */
+        }
+        .physicalaccess-container 
+        .physicalaccess-image-container {
+                width: 100%;
+        }
+
+        .physicalaccess-image-container .physicalaccess-image-under-banner {
+                width: 340px;
+                margin-left: -97px;
+                height: 250px;
+
+        }
+
+        .physicalaccess-container .physicalaccess-card {
+
+                width: 114%;
+                height: 442px;
+                margin-top: 15px;
+                padding: 20px;
+                /* Add padding inside the card */
+                border: 1px solid #ddd;
+                /* Add border for the card */
+                border-radius: 8px;
+                /* Add rounded corners */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                /* Add shadow for a card effect */
+                margin-left: -70px;
+                margin-bottom: 20px;
+        }
+
+        .physicalaccess-container {
+                display: flex;
+                flex-direction: column;
+                /* width:100% */
+
+        }
+
+
+        .related-posts {
+                text-align: center;
+                font-size: 20px;
+        }
+
+        .physicalaccess-text-container .read-more-btn {
+                margin-left: 80px;
+        }
+
+        .physicalaccess-banner-text {
+                color: white;
+                font-size: 1.5rem;
+                font-weight: bold;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+
+        .physicalaccess-banner {
+                background-image: url('./BlogImages/ban-acc.png');
+                /* Add the URL to your banner image */
+                background-size: cover;
+                background-position: center;
+                height: 250px;
+                /* Adjust the height of the banner */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        }
+
+
+        .physicalaccess-card-heading {
+                font-size: 22px;
+                margin-bottom: 10px;
+                text-align: center;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.physicalaccess-container {
+        display: flex;
+        align-items: flex-start; /* Align items at the start of the container */
+        flex-wrap: wrap; /* Allow wrapping on smaller screens */
+        gap: 20px; /* Add space between image and card */
+        margin-left: 95px;
+      }
+      
+      .physicalaccess-image-container {
+         /* Allows image container to grow and shrink */
+        width: 50%; /* Control the maximum width of the image container */
+      }
+
+      .physicalaccess-card-heading{
+        text-align: center;
+      }
+      
+      .physicalaccess-image-under-banner {
+        width: 60%; /* Ensure the image fits within its container */
+        height: 405px; /* Maintain aspect ratio */
+      }
+      
+      .physicalaccess-card {
+      
+width: 30%; /* Control the maximum width of the card container */
+        height: 405px;
+        margin-top: 55px;
+        padding: 20px; /* Add padding inside the card */
+        border: 1px solid #ddd; /* Add border for the card */
+        border-radius: 8px; /* Add rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a card effect */
+      }
+      
+      .card-heading {
+        font-size: 24px; /* Adjust heading size */
+        margin-bottom: 10px; /* Add space below the heading */
+      }
+      
+ 
+      
+      @media (max-width: 768px) {
+        .physicalaccess-container {
+          flex-direction: row; /* Stack image and card on top of each other on small screens */
+          align-items: center; /* Center items horizontally */
+        }
+      
+    
+      }
+      
+
+
+      .read-more-btn {
+       
+                padding: 8px 30px;
+                background-color: #d332b8;
+                box-shadow: 1px 1px 3px 2px #0255db;
+                color: #fff;
+                border: none;
+                border-radius: 45px;
+                font-size: 16px;
+                cursor: pointer;
+                margin-bottom: 20px;
+                margin-left: 43%;
+                transition: background-color 0.3s ease;
+            
+    }
+    
+    .read-more-btn:hover {
+        background-color: #0056b3;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .physicalaccess-image-container,
+.physicalaccess-card {
+  opacity: 0;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Image fades in from the left */
+.physicalaccess-image-container {
+  transform: translateX(-50px); /* Initially positioned left */
+}
+
+/* Card fades in from the right */
+.physicalaccess-card {
+  transform: translateX(50px); /* Initially positioned right */
+}
+
+/* Animation trigger on scroll */
+.physicalaccess-image-container.fade-in {
+  opacity: 1;
+  transform: translateX(0); /* Moves to original position */
+}
+
+.physicalaccess-card.fade-in {
+  opacity: 1;
+  transform: translateX(0); /* Moves to original position */
+}

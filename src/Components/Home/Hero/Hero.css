@@ -1,0 +1,70 @@
+.carousel-container {
+  width: 100%;
+  max-width: 1525px;
+  margin: 0 auto;
+}
+
+.carousel {
+  height: 70%; /* Adjusted height */
+}
+
+.video-background-container {
+  position: relative;
+  height: 70%; /* Match the carousel height */
+}
+
+.video-background {
+  width: 100%;
+  height: 100%; /* Adjust height to fit the container */
+  object-fit: cover;
+}
+
+.textcontainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); /* Optional: Darken background for better text readability */
+  color: white;
+  text-align: center;
+  z-index: 1; /* Ensure text is on top of the video */
+  padding: 0 20px;
+}
+
+.main-text {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.sub-text {
+  margin-top: 1rem;
+  font-size: 25px;
+}
+
+.line1, .line2, .subline1, .subline2 {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .main-text {
+    font-size: 16px;
+  }
+  .sub-text {
+    display: none;
+  }
+
+  .carousel {
+    height: 90%; /* Adjusted height */
+  }
+  
+  .video-background-container {
+    position: relative;
+    height: 90%; /* Match the carousel height */
+  }
+}

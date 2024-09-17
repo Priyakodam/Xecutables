@@ -1,0 +1,347 @@
+/* General styles for larger screens */
+.blog-banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .blogbanner-image {
+    width: 100%;
+    height: 80%;
+  }
+  
+  .blogbanner-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  .blogbanner-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+
+  }
+  .blog-head{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+  
+
+
+  .subheading1 {
+    color: #212ea0;
+    font-weight: bold;
+    margin-top: 73px;
+}
+  
+  .blogcontainer {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .background-blogcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .blogtext-content {
+    background-color: #eaf9e0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    color: #333;
+  }
+  
+  .blogtext-content h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .blogtext-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .blog-image {
+    width: 45%;
+    
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 0 20px;
+    margin-bottom: 15px;
+    border-bottom-left-radius: 100px;
+  }
+
+  .blog-image1 {
+    width: 45%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 0 20px;
+    margin-bottom: 15px;
+    border-top-right-radius: 100px;
+  }
+
+  .blogtext-content p {
+    font-size: 19px;
+ }
+
+  .button-blogcontainer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button-blogcontainer .btn {
+    background: linear-gradient(to right, #A90E83, #0150E1);
+    color: white;
+    border-radius: 40px;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  
+  .button-blogcontainer .btn:hover {
+    background: linear-gradient(to right, #0150E1, #fcc5ee);
+  }
+  
+  .blog_container {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    
+  }
+  
+  .blogcard {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-image2 {
+    width: 95%;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 0 20px;
+    margin-bottom: 15px;
+  }
+
+  /* Responsive styles for tablets (max-width: 768px) */
+  @media only screen and (max-width: 768px) {
+    .blog-banner {
+      height: 300px;
+    }
+  .last-text-img{
+    display: flex;
+    flex-direction: column;
+    width: 103%;
+  }
+
+  .leftcard {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.subheading1 {
+  color: #212ea0;
+  font-weight: bold;
+  margin-top: 7px;
+}
+
+    .blogbanner-text h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+  
+    .blogcontainer {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  
+    .background-blogcontainer {
+      flex-direction: column;
+      text-align: justify;
+    }
+  
+    .blogtext-content {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .blog-image {
+      width: 100%;
+    }
+
+    .blog-image1 {
+        width: 100%;
+      }
+
+      .blog-image2 {
+        width: 100%;
+      }
+  
+    .button-blogcontainer .btn {
+      font-size: 1rem;
+      padding: 8px 16px;
+      margin-bottom: 20px;
+    }
+
+    .blog_container {
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+    
+      .blogcard {
+        padding: 15px;
+      }
+    
+      .blog-image2 {
+        width: 100%;
+        margin: 0;
+      }
+    
+      .subheading {
+        font-size: 1.5rem;
+      }
+    
+      .blogtext-content p {
+        font-size: 1.5rem;
+      }
+  }
+  
+  /* Responsive styles for mobile screens (max-width: 480px) */
+  @media only screen and (max-width: 480px) {
+    .blog-banner {
+      height: 200px;
+    }
+  
+    .blogbanner-text h1 {
+      font-size: 1.8rem;
+    }
+
+
+    .last-text-img{
+      display: flex;
+      flex-direction: column;
+      width: 106%;
+    }
+
+
+    .blog_container {
+      margin-left: 19px;
+      margin-right: 18px;
+  }
+
+    .subheading1 {
+      text-align:justify ;
+    }
+  
+    .blogtext-content {
+      font-size: 1rem;
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .blogtext-content h3 {
+      font-size: 1.5rem;
+    }
+  
+    .blogcontainer {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .button-blogcontainer .btn {
+      font-size: 1rem;
+      padding: 8px 16px;
+    }
+  
+    .background-blogcontainer {
+      gap: 10px;
+    }
+
+    .blogcontainer {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+    
+      .blogcard {
+        padding: 10px;
+        margin-top: -27px;
+      }
+    
+      .blog-image2 {
+        width: 100%;
+        margin: 0;
+      }
+    
+      .subheading {
+        font-size: 1.2rem;
+      }
+    
+      .blogtext-content p {
+        font-size: 0.9rem;
+      }
+  }
+  
+
+  @keyframes slideInFromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .background-blogcontainer .blogtext-content {
+    animation: slideInFromLeft 1s ease-out;
+  }
+  
+  .background-blogcontainer .blog-image {
+    animation: slideInFromRight 1s ease-out;
+  }
+
+  .background-blogcontainer .blog-image1 {
+    animation: slideInFromRight 1s ease-out;
+  }
+
+  .leftcard {
+    animation: slideInFromLeft 1s ease-out;
+  }
+
+  .rightcard {
+    animation: slideInFromRight 1s ease-out;
+  }
