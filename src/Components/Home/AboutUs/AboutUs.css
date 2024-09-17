@@ -29,7 +29,8 @@
 
 .about-us-content p {
   font-size: 1rem;
-  color: #666;
+  color: black;
+  font-family: sans-serif;
   margin: 10px 0;
 }
 

@@ -196,9 +196,9 @@ h3 {
 
 p {
         font-size: 1rem;
-        /* Paragraph font size */
-        line-height: 1.5;
-        /* Adjust line spacing for readability */
+    color: black;
+    font-family: sans-serif;
+    line-height: 1.5;
 }
 
 /* Responsive styling for smaller screens */
