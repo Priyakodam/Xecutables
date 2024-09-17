@@ -294,14 +294,15 @@
   color: white;
   padding: 20px;
   border-radius: 10px;
-  height: 650px;
+  height: 680px;
   margin-top: 0px;
   margin-left: 19px;
   width: 350px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: linear-gradient(to right, #A90E83, #0150E1);
+  /* background-image: linear-gradient(to right, #A90E83, #0150E1); */
+  background-color: white;
 }
 .proimban{
   width: 250%;
