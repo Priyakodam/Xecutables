@@ -285,7 +285,7 @@
     }
     .container {
       flex-direction: column;
-      margin-left: 10px;
+      /* margin-left: 10px; */
     }
     .product-container {
         flex-direction: column;
