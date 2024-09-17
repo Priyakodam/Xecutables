@@ -73,6 +73,8 @@
   .blogtext-content p {
     font-size: 1.2rem;
     line-height: 1.5;
+    color: black;
+    font-family: sans-serif;
   }
   
   .blog-image {
@@ -96,6 +98,8 @@
 
   .blogtext-content p {
     font-size: 19px;
+    color: black;
+    font-family: sans-serif;
  }
 
   .button-blogcontainer {
@@ -225,6 +229,8 @@
     
       .blogtext-content p {
         font-size: 1.5rem;
+        color: black;
+        font-family: sans-serif;
       }
   }
   
@@ -300,6 +306,8 @@
     
       .blogtext-content p {
         font-size: 0.9rem;
+        color: black;
+        font-family: sans-serif;
       }
   }
   

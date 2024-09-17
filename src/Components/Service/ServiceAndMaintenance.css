@@ -138,8 +138,8 @@
       
       .plan p {
         font-size: 16px;
-        color: #666;
-        margin: 20px 0;
+        color: black;        margin: 20px 0;
+        font-family: sans-serif;
       }
       
       /* List styling inside the plan */
@@ -151,8 +151,9 @@
       
       .plan ul li {
         font-size: 16px;
-        color: #666;
-        padding: 5px 0;
+        color: black;
+                padding: 5px 0;
+        font-family: sans-serif;
       }
       
       /* Button styling */

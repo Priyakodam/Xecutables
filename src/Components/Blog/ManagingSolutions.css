@@ -56,6 +56,8 @@
 
         p {
                 margin-bottom: 20px;
+                color: black;
+                font-family: sans-serif;
         }
 
         /* Text color */
@@ -106,6 +108,8 @@ p {
         /* Paragraph font size */
         line-height: 1.2;
         /* Adjust line spacing for readability */
+        color: black;
+        font-family: sans-serif;
 }
 
 

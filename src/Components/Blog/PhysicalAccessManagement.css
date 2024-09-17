@@ -51,6 +51,8 @@
 
         p {
                 margin-bottom: 20px;
+                color: black;
+                font-family: sans-serif;
         }
 
         /* Text color */
@@ -116,6 +118,7 @@
                 color: #555;
                 line-height: 1.5;
                 margin: 5px 0;
+                font-family: sans-serif;
             }
 
 
@@ -199,6 +202,8 @@ p {
         /* Paragraph font size */
         line-height: 1.5;
         /* Adjust line spacing for readability */
+        color: black;
+        font-family: sans-serif;
 }
 
 /* Responsive styling for smaller screens */
@@ -418,31 +423,3 @@ width: 30%; /* Control the maximum width of the card container */
 
 
 
-
-
-    .physicalaccess-image-container,
-.physicalaccess-card {
-  opacity: 0;
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-}
-
-/* Image fades in from the left */
-.physicalaccess-image-container {
-  transform: translateX(-50px); /* Initially positioned left */
-}
-
-/* Card fades in from the right */
-.physicalaccess-card {
-  transform: translateX(50px); /* Initially positioned right */
-}
-
-/* Animation trigger on scroll */
-.physicalaccess-image-container.fade-in {
-  opacity: 1;
-  transform: translateX(0); /* Moves to original position */
-}
-
-.physicalaccess-card.fade-in {
-  opacity: 1;
-  transform: translateX(0); /* Moves to original position */
-}

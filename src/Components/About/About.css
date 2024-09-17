@@ -190,9 +190,10 @@
 
 .keypoint p {
         font-size: 1rem;
-        color: #333;
         line-height: 1.6;
         margin-top: 1rem;
+        color: black;
+    font-family: sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -233,10 +234,11 @@
 
 .mission-heading p {
         font-size: 1.2rem;
-        color: #666;
+        color: black;
         margin-bottom: 2rem;
         width: 60%;
         margin: 0 auto;
+        font-family: sans-serif;
 }
 
 .sec-4-grid-container {
@@ -265,9 +267,10 @@
 
 .sec-4-grid-text p {
         font-size: 0.9rem;
-        color: #555;
+        color: black;
         margin: 0.5rem 0;
         text-align: left;
+        font-family: sans-serif;
 }
 
 
@@ -320,6 +323,8 @@
 
 .content-section p {
         font-size: 16px;
+        color: black;
+        font-family: sans-serif;
 }
 
 .image-section img {
@@ -370,6 +375,7 @@
 .sec1-banner-text .sec1-parah {
         font-size: 1.5rem;
         color: #f8f3f3;
+        font-family: sans-serif;
     }
         .sec-2-text-section {
                 flex: 1 1;
@@ -436,6 +442,7 @@
     .sec1-banner-text .sec1-parah {
             font-size: 1.5rem;
             color: #f8f3f3;
+            font-family: sans-serif;
         }
 
 

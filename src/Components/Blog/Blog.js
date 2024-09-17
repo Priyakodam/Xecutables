@@ -56,7 +56,7 @@ const Product = () => {
             <div className="row last-text-img">
               <div className="col-md-6 sm-12 leftcard" style={{ textAlign: "justify" }}>
                 <h2 style={{ fontSize: '30px', textAlign: 'center' }} className="text-center subheading1">Improve physical access management with mobile lift integration solutions</h2>
-                <p>
+                <p style={{ fontSize: '19px'}}>
                   Elevators/lift may seem like the most uncomplicated systems but there’s a lot more to them than what meets the eye. They are tricky and are quite distinct from one another. They have the capability to impact the safety of a facility or a building.
                   New types and levels of safety threats call for advanced safety solutions.The access points of the buildings can be managed by managing the elevators correctly. Appropriate access management system can help ensure smooth flow of people in and out of the building. It will also improve the user experience.
                 </p>
